@@ -1,0 +1,22 @@
+{
+    "ip": "10.29.131.102",
+    "user": "admin",
+    "pw": "password",
+    "secure": "True",
+    "raid_config": [
+        {
+	    "dn": "sys/rack-unit-1/board/storage-SAS-SLOT-HBA",
+	    "drive_name": "RAID0_3",
+	    "raid_level": "0",
+	    "size": "250 GB",
+	    "drive_group": "[3]",
+	    "boot_drive": "no"
+	}
+    ],
+    "fw_config": {
+        "cimc_version": "3.0(1S12)",
+        "protocol": "SCP",
+	"fwu_ip": "10.29.131.198",
+	"fwu_path": "/root/c240M4/3.0.1S12/cimc/c240-m4-cimc.3.0.1S12/upd-pkg-c240-m4-cimc.full.3.0.1S12.bin"
+    }
+}
